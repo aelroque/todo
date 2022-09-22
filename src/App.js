@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import { Button, Card, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './todo-pic.jpg';
 
 function Todo({ todo, index, markTodo, removeTodo }) {
   return (
